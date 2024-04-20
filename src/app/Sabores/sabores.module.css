@@ -1,0 +1,69 @@
+
+.Container_Bolas_Sorvete_Topo{
+    display: flex;
+    width: 100vw;
+    height: 85vh;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #F9DB79;
+    position: relative;
+    z-index: 1;
+}
+.titulo{
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    color: #fff;
+    text-shadow: 3px 5px 2px #474747;
+    font-size: clamp(8vw, 9vw, 11vw);
+}
+.imagem_bolas_de_sorvete{
+    width: 100%;
+    height:100%;
+    position: absolute;
+    z-index: 0;
+    object-fit: cover;
+    object-position: top;
+}
+
+.container_global_cards{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 0px;
+}
+.container_cards{
+    display: flex;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.cards{
+    display: flex;
+    width: 33%;
+    height: 420px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.imagem_sabores_cards{
+    width: 235px;
+    height: 330px;
+    object-fit: contain;
+} 
+.container_texto_card{
+    width: 100%;
+    height: 46%;
+    text-align: center;
+}
+
+@media(max-width:670px){
+    .cards{
+        width: 100%;
+    }
+}

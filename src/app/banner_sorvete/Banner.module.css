@@ -1,0 +1,32 @@
+.container_global{
+    width: 100vw;
+    height: 100vh;
+    background-color: #F9DB79 ;
+}
+.container_logo .imagem_logo{ 
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.container nav{
+    display: flex;
+    width: 240px;
+    height: auto;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+.container_imagem_sorvete{
+    display: flex;
+    justify-content: center;
+}
+.imagem_sorvete{
+    width: clamp(10rem, 28rem, 500px);
+    object-fit: cover;
+}
+.texto_banner_sorvete{
+    position: absolute;
+    top: 300px;
+    color: #fff;
+    font-size: clamp(2.0rem, 7vw, 5rem);
+    text-shadow: 3px 5px 2px #474747;
+}
