@@ -42,7 +42,7 @@ export default function Rodape(){
                 </section>
 
                 <section className={Estilo.container_texto_final}>
-                         <p>Gelateria. <br/> Orgulhosamente desenvolvido por <a className={Estilo.links} href="www.linkedin.com/in/tarcisio-henrique-0376b81a0" target='blank'> Tarcisio H</a></p>
+                         <p>Gelateria. <br/> Orgulhosamente desenvolvido por <Link className={Estilo.links} href="www.linkedin.com/in/tarcisio-henrique-0376b81a0" target='blank'> Tarcisio H</Link></p>
                   
                     <div className={Estilo.container_seta_topo}>
                         <Link href="/"><Image src={BotaoTopo} width={70} height={70} alt='Botão voltar ao topo' /></Link>
