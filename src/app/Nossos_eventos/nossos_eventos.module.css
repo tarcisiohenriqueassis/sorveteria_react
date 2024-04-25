@@ -29,7 +29,7 @@
     font-size:clamp(1.2rem, 28px, 3rem);
 }
 .container_global p{
-    font-size: clamp(13px, 13px, 20px);
+    font-size:clamp(13px, 16px, 20px);;
 }
 .container_global span{
     font-size: 18px;
